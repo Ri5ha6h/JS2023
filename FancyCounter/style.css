@@ -26,6 +26,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.4s;
+}
+
+.counter--limit {
+    background-color: #a3d11b;
 }
 
 .counter__title {
@@ -84,10 +89,6 @@ body {
     background-color: #212b06;
 }
 
-.counter_button--decrease {
-
-}
-
 .counter__button--increase {
     border-left: 1px solid rgba(189, 254, 0, 0.15);
 }
@@ -96,14 +97,6 @@ body {
     color: #bdfe00;
     opacity: 0.9;
     font-size: 40px;
-}
-
-.counter__icon--minus {
-
-}
-
-.counter__icon--plus {
-
 }
 
 @media (max-width: 680px) or (max-height: 730px) {
