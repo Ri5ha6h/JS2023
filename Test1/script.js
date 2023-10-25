@@ -1,2 +1,2 @@
 const headingEl = document.querySelector(".heading");
-console.log(headingEl)
+console.log(headingEl);
